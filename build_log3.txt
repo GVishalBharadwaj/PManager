@@ -1,0 +1,115 @@
+.\gradlew.bat : 
+WARNING: A restricted 
+method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ .\gradlew.bat 
+assembleDebug 
+--stacktrace 2>&1 | 
+Out-String | Out-File 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (WARNING: A re   
+ st...has been call    
+ed:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+WARNING: 
+java.lang.System::load 
+has been called by net.
+rubygrapefruit.platform
+.internal.NativeLibrary
+Loader in an unnamed 
+module (file:/C:/Users/
+gvish/.gradle/wrapper/d
+ists/gradle-8.2-bin/bbg
+7u40eoinfdyxsxr3z4i7ta/
+gradle-8.2/lib/native-p
+latform-0.22-milestone-
+24.jar)
+WARNING: Use --enable-n
+ative-access=ALL-UNNAME
+D to avoid a warning 
+for callers in this 
+module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless native 
+access is enabled
+
+Warning: SDK 
+processing. This 
+version only 
+understands SDK XML 
+versions up to 3 but 
+an SDK XML file of 
+version 4 was 
+encountered. This can 
+happen if you use 
+versions of Android 
+Studio and the 
+command-line tools 
+that were released at 
+different times.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeLibDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeExtDexDebug
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files 
+use or override a 
+deprecated API.
+Note: Recompile with 
+-Xlint:deprecation for 
+details.
+
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 43s
+32 actionable tasks: 32 executed
+

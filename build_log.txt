@@ -1,0 +1,85 @@
+﻿.\gradlew.bat : 
+WARNING: A restricted 
+method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ .\gradlew.bat 
+assembleDebug 2>&1 | 
+Out-File -Encoding 
+utf8 "build_log ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (WARNING: A re   
+ st...has been call    
+ed:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+WARNING: 
+java.lang.System::load 
+has been called by net.
+rubygrapefruit.platform
+.internal.NativeLibrary
+Loader in an unnamed 
+module (file:/C:/Users/
+gvish/.gradle/wrapper/d
+ists/gradle-8.2-bin/bbg
+7u40eoinfdyxsxr3z4i7ta/
+gradle-8.2/lib/native-p
+latform-0.22-milestone-
+24.jar)
+WARNING: Use --enable-n
+ative-access=ALL-UNNAME
+D to avoid a warning 
+for callers in this 
+module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless native 
+access is enabled
+
+
+FAILURE: Build failed 
+with an exception.
+
+* What went wrong:
+Could not determine 
+the dependencies of 
+task ':app:compileDebug
+JavaWithJavac'.
+> Could not determine 
+the dependencies of 
+null.
+   > SDK location not 
+found. Define a valid 
+SDK location with an 
+ANDROID_HOME 
+environment variable 
+or by setting the 
+sdk.dir path in your 
+project's local 
+properties file at 'C:\
+Users\gvish\AndroidStud
+ioProjects\PManager\PMa
+nager\local.properties'
+.
+
+* Try:
+> Run with 
+--stacktrace option to 
+get the stack trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at http
+s://help.gradle.org.
+
+BUILD FAILED in 835ms

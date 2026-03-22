@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.pmanager.app-merged_res-38:/drawable_ic_back_arrow.xml.flat",
+        "source": "com.pmanager.app-main-40:/drawable/ic_back_arrow.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/drawable_bg_category_circle.xml.flat",
+        "source": "com.pmanager.app-main-40:/drawable/bg_category_circle.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/color_text_input_stroke.xml.flat",
+        "source": "com.pmanager.app-main-40:/color/text_input_stroke.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_vault.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_vault.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_splash.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.pmanager.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_add_edit.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_add_edit.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_dialog_password_generator.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/dialog_password_generator.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_login.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_password_detail.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_password_detail.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_dialog_change_password.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/dialog_change_password.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_item_password.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/item_password.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/xml_autofill_service_config.xml.flat",
+        "source": "com.pmanager.app-main-40:/xml/autofill_service_config.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/menu_menu_vault.xml.flat",
+        "source": "com.pmanager.app-main-40:/menu/menu_vault.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.pmanager.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_settings.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.pmanager.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.pmanager.app-merged_res-38:/layout_activity_setup.xml.flat",
+        "source": "com.pmanager.app-main-40:/layout/activity_setup.xml"
+    }
+]

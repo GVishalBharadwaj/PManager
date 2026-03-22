@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PManager</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Create Master Password</string>
+    <string name="setup_subtitle">This password protects all your saved credentials. Make it strong and memorable.</string>
+    <string name="hint_master_password">Master Password</string>
+    <string name="hint_confirm_password">Confirm Master Password</string>
+    <string name="btn_create_vault">Create My Vault</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_passwords_mismatch">Passwords don\'t match</string>
+    <string name="error_password_required">Password is required</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Enter your master password to unlock</string>
+    <string name="btn_unlock">Unlock</string>
+    <string name="btn_use_biometric">Use Fingerprint</string>
+    <string name="error_wrong_password">Incorrect master password</string>
+
+    <!-- Vault -->
+    <string name="vault_title">My Vault</string>
+    <string name="hint_search">Search passwords…</string>
+    <string name="empty_vault_title">No passwords yet</string>
+    <string name="empty_vault_subtitle">Tap + to add your first credential</string>
+
+    <!-- Add/Edit -->
+    <string name="add_title">Add Password</string>
+    <string name="edit_title">Edit Password</string>
+    <string name="hint_title">Title (e.g., Gmail, Netflix)</string>
+    <string name="hint_username">Username or Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_website">Website URL</string>
+    <string name="hint_notes">Notes (optional)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_generate">Generate</string>
+    <string name="label_category">Category</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_password_field_required">Password is required</string>
+
+    <!-- Detail -->
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_website">Website</string>
+    <string name="label_notes">Notes</string>
+    <string name="label_created">Created</string>
+    <string name="label_modified">Last Modified</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="clipboard_cleared">Clipboard cleared for security</string>
+
+    <!-- Generator -->
+    <string name="generator_title">Password Generator</string>
+    <string name="label_length">Length: %d</string>
+    <string name="label_uppercase">Uppercase (A-Z)</string>
+    <string name="label_lowercase">Lowercase (a-z)</string>
+    <string name="label_digits">Digits (0–9)</string>
+    <string name="label_special">Special (!@#$…)</string>
+    <string name="btn_use_password">Use This Password</string>
+    <string name="btn_regenerate">Regenerate</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All</string>
+    <string name="cat_social">Social</string>
+    <string name="cat_email">Email</string>
+    <string name="cat_finance">Finance</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_work">Work</string>
+    <string name="cat_other">Other</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_biometric">Biometric Unlock</string>
+    <string name="pref_biometric_desc">Use fingerprint to unlock your vault</string>
+    <string name="pref_auto_lock">Auto-Lock Timeout</string>
+    <string name="pref_auto_lock_desc">Lock vault after being in background</string>
+    <string name="pref_clipboard_clear">Clear Clipboard</string>
+    <string name="pref_clipboard_clear_desc">Auto-clear clipboard after 30 seconds</string>
+    <string name="pref_autofill">Enable Autofill</string>
+    <string name="pref_autofill_desc">Set PManager as your autofill provider</string>
+    <string name="pref_change_master">Change Master Password</string>
+    <string name="pref_export">Export Vault</string>
+    <string name="pref_import">Import Vault</string>
+    <string name="pref_about">About PManager</string>
+    <string name="about_version">Version 1.0</string>
+
+    <!-- Autofill -->
+    <string name="autofill_auth_title">PManager Autofill</string>
+    <string name="autofill_auth_subtitle">Authenticate to autofill credentials</string>
+
+    <!-- General -->
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_copy">Copy</string>
+    <string name="confirm_delete_title">Delete Password?</string>
+    <string name="confirm_delete_message">This action cannot be undone. The saved credential will be permanently removed.</string>
+    <string name="password_deleted">Password deleted</string>
+    <string name="btn_undo">Undo</string>
+
+    <!-- Biometric -->
+    <string name="biometric_prompt_title">Unlock PManager</string>
+    <string name="biometric_prompt_subtitle">Use your fingerprint to unlock</string>
+    <string name="biometric_prompt_cancel">Use Password</string>
+
+    <!-- Strength -->
+    <string name="strength_weak">Weak</string>
+    <string name="strength_fair">Fair</string>
+    <string name="strength_good">Good</string>
+    <string name="strength_strong">Strong</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".PManagerApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PManager"
+        tools:targetApi="34">
+
+        <!-- Launcher Activity -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PManager.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.SetupActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.VaultActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".ui.AddEditActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"
+            android:parentActivityName=".ui.VaultActivity" />
+
+        <activity
+            android:name=".ui.PasswordDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.VaultActivity" />
+
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.VaultActivity" />
+
+        <!-- Autofill Service -->
+        <service
+            android:name=".autofill.PManagerAutofillService"
+            android:exported="true"
+            android:permission="android.permission.BIND_AUTOFILL_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.autofill.AutofillService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.autofill"
+                android:resource="@xml/autofill_service_config" />
+        </service>
+
+        <!-- Autofill Auth Activity -->
+        <activity
+            android:name=".autofill.AutofillAuthActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PManager.Dialog" />
+
+    </application>
+
+</manifest>

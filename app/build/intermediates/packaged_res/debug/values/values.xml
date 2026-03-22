@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#FF00E676</color>
+    <color name="accent_orange">#FFFF9100</color>
+    <color name="accent_purple">#FFB388FF</color>
+    <color name="accent_red">#FFFF5252</color>
+    <color name="accent_yellow">#FFFFD740</color>
+    <color name="background">#FF0A0E14</color>
+    <color name="black">#FF000000</color>
+    <color name="card_bg">#FF162030</color>
+    <color name="cat_email">#FFFF5252</color>
+    <color name="cat_finance">#FF00E676</color>
+    <color name="cat_other">#FF78909C</color>
+    <color name="cat_shopping">#FFFFAB40</color>
+    <color name="cat_social">#FF448AFF</color>
+    <color name="cat_work">#FF7C4DFF</color>
+    <color name="divider">#FF1E2D3D</color>
+    <color name="error">#FFFF5252</color>
+    <color name="on_background">#FFEAEAEA</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_secondary">#FF000000</color>
+    <color name="on_surface">#FFEAEAEA</color>
+    <color name="primary">#FF0D1B2A</color>
+    <color name="primary_variant">#FF1B2838</color>
+    <color name="ripple">#2200E5FF</color>
+    <color name="secondary">#FF00E5FF</color>
+    <color name="secondary_variant">#FF00B8D4</color>
+    <color name="splash_bg">#FF080C12</color>
+    <color name="strength_fair">#FFFF9100</color>
+    <color name="strength_good">#FFFFD740</color>
+    <color name="strength_strong">#FF00E676</color>
+    <color name="strength_weak">#FFFF5252</color>
+    <color name="surface">#FF131A25</color>
+    <color name="surface_elevated">#FF1A2332</color>
+    <color name="text_hint">#FF55667A</color>
+    <color name="text_primary">#FFEAEAEA</color>
+    <color name="text_secondary">#FF8899AA</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="card_min_height">72dp</dimen>
+    <dimen name="corner_radius_lg">16dp</dimen>
+    <dimen name="corner_radius_md">12dp</dimen>
+    <dimen name="corner_radius_sm">8dp</dimen>
+    <dimen name="corner_radius_xl">24dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="icon_size_lg">40dp</dimen>
+    <dimen name="icon_size_md">24dp</dimen>
+    <dimen name="icon_size_sm">20dp</dimen>
+    <dimen name="icon_size_xl">56dp</dimen>
+    <dimen name="icon_size_xxl">80dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_heading">28sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <string name="about_version">Version 1.0</string>
+    <string name="add_title">Add Password</string>
+    <string name="app_name">PManager</string>
+    <string name="autofill_auth_subtitle">Authenticate to autofill credentials</string>
+    <string name="autofill_auth_title">PManager Autofill</string>
+    <string name="biometric_prompt_cancel">Use Password</string>
+    <string name="biometric_prompt_subtitle">Use your fingerprint to unlock</string>
+    <string name="biometric_prompt_title">Unlock PManager</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_create_vault">Create My Vault</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_generate">Generate</string>
+    <string name="btn_regenerate">Regenerate</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_undo">Undo</string>
+    <string name="btn_unlock">Unlock</string>
+    <string name="btn_use_biometric">Use Fingerprint</string>
+    <string name="btn_use_password">Use This Password</string>
+    <string name="cat_all">All</string>
+    <string name="cat_email">Email</string>
+    <string name="cat_finance">Finance</string>
+    <string name="cat_other">Other</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_social">Social</string>
+    <string name="cat_work">Work</string>
+    <string name="clipboard_cleared">Clipboard cleared for security</string>
+    <string name="confirm_delete_message">This action cannot be undone. The saved credential will be permanently removed.</string>
+    <string name="confirm_delete_title">Delete Password?</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="edit_title">Edit Password</string>
+    <string name="empty_vault_subtitle">Tap + to add your first credential</string>
+    <string name="empty_vault_title">No passwords yet</string>
+    <string name="error_password_field_required">Password is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_passwords_mismatch">Passwords don\'t match</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_wrong_password">Incorrect master password</string>
+    <string name="generator_title">Password Generator</string>
+    <string name="hint_confirm_password">Confirm Master Password</string>
+    <string name="hint_master_password">Master Password</string>
+    <string name="hint_notes">Notes (optional)</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_search">Search passwords…</string>
+    <string name="hint_title">Title (e.g., Gmail, Netflix)</string>
+    <string name="hint_username">Username or Email</string>
+    <string name="hint_website">Website URL</string>
+    <string name="label_category">Category</string>
+    <string name="label_created">Created</string>
+    <string name="label_digits">Digits (0–9)</string>
+    <string name="label_length">Length: %d</string>
+    <string name="label_lowercase">Lowercase (a-z)</string>
+    <string name="label_modified">Last Modified</string>
+    <string name="label_notes">Notes</string>
+    <string name="label_password">Password</string>
+    <string name="label_special">Special (!@#$…)</string>
+    <string name="label_uppercase">Uppercase (A-Z)</string>
+    <string name="label_username">Username</string>
+    <string name="label_website">Website</string>
+    <string name="login_subtitle">Enter your master password to unlock</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="password_deleted">Password deleted</string>
+    <string name="pref_about">About PManager</string>
+    <string name="pref_auto_lock">Auto-Lock Timeout</string>
+    <string name="pref_auto_lock_desc">Lock vault after being in background</string>
+    <string name="pref_autofill">Enable Autofill</string>
+    <string name="pref_autofill_desc">Set PManager as your autofill provider</string>
+    <string name="pref_biometric">Biometric Unlock</string>
+    <string name="pref_biometric_desc">Use fingerprint to unlock your vault</string>
+    <string name="pref_change_master">Change Master Password</string>
+    <string name="pref_clipboard_clear">Clear Clipboard</string>
+    <string name="pref_clipboard_clear_desc">Auto-clear clipboard after 30 seconds</string>
+    <string name="pref_export">Export Vault</string>
+    <string name="pref_import">Import Vault</string>
+    <string name="settings_title">Settings</string>
+    <string name="setup_subtitle">This password protects all your saved credentials. Make it strong and memorable.</string>
+    <string name="setup_title">Create Master Password</string>
+    <string name="strength_fair">Fair</string>
+    <string name="strength_good">Good</string>
+    <string name="strength_strong">Strong</string>
+    <string name="strength_weak">Weak</string>
+    <string name="vault_title">My Vault</string>
+    <style name="TextAppearance.PManager.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextAppearance.PManager.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+    <style name="TextAppearance.PManager.Headline" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.PManager.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Theme.PManager" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="colorOnPrimary">@color/on_secondary</item>
+        <item name="colorPrimaryContainer">@color/primary</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/surface_elevated</item>
+        <item name="colorOnSecondaryContainer">@color/on_surface</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_elevated</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        
+        <item name="textInputStyle">@style/Widget.PManager.TextInput</item>
+    </style>
+    <style name="Theme.PManager.Dialog" parent="Theme.Material3.Dark.Dialog">
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="Theme.PManager.Splash">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+    </style>
+    <style name="Widget.PManager.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/secondary</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Widget.PManager.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/on_secondary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.PManager.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.PManager.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    <style name="Widget.PManager.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/surface_elevated</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipStrokeColor">@color/divider</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconTint">@color/secondary</item>
+    </style>
+    <style name="Widget.PManager.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="tint">@color/on_secondary</item>
+    </style>
+    <style name="Widget.PManager.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_stroke</item>
+        <item name="hintTextColor">@color/secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary palette — deep navy / electric cyan -->
+    <color name="primary">#FF0D1B2A</color>
+    <color name="primary_variant">#FF1B2838</color>
+    <color name="on_primary">#FFFFFFFF</color>
+
+    <color name="secondary">#FF00E5FF</color>
+    <color name="secondary_variant">#FF00B8D4</color>
+    <color name="on_secondary">#FF000000</color>
+
+    <color name="background">#FF0A0E14</color>
+    <color name="surface">#FF131A25</color>
+    <color name="surface_elevated">#FF1A2332</color>
+    <color name="on_background">#FFEAEAEA</color>
+    <color name="on_surface">#FFEAEAEA</color>
+
+    <color name="error">#FFFF5252</color>
+    <color name="on_error">#FFFFFFFF</color>
+
+    <!-- Accent colors -->
+    <color name="accent_green">#FF00E676</color>
+    <color name="accent_yellow">#FFFFD740</color>
+    <color name="accent_orange">#FFFF9100</color>
+    <color name="accent_red">#FFFF5252</color>
+    <color name="accent_purple">#FFB388FF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFEAEAEA</color>
+    <color name="text_secondary">#FF8899AA</color>
+    <color name="text_hint">#FF55667A</color>
+
+    <!-- Component colors -->
+    <color name="card_bg">#FF162030</color>
+    <color name="divider">#FF1E2D3D</color>
+    <color name="ripple">#2200E5FF</color>
+
+    <!-- Password strength -->
+    <color name="strength_weak">#FFFF5252</color>
+    <color name="strength_fair">#FFFF9100</color>
+    <color name="strength_good">#FFFFD740</color>
+    <color name="strength_strong">#FF00E676</color>
+
+    <!-- Category colors -->
+    <color name="cat_social">#FF448AFF</color>
+    <color name="cat_email">#FFFF5252</color>
+    <color name="cat_finance">#FF00E676</color>
+    <color name="cat_shopping">#FFFFAB40</color>
+    <color name="cat_work">#FF7C4DFF</color>
+    <color name="cat_other">#FF78909C</color>
+
+    <color name="splash_bg">#FF080C12</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

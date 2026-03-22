@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_lg"
+        android:gravity="center_horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Shield Icon -->
+        <ImageView
+            android:layout_width="@dimen/icon_size_xxl"
+            android:layout_height="@dimen/icon_size_xxl"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="Shield icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:text="@string/setup_title"
+            android:textAppearance="@style/TextAppearance.PManager.Headline"
+            android:textSize="@dimen/text_heading" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/spacing_xl"
+            android:text="@string/setup_subtitle"
+            android:textAppearance="@style/TextAppearance.PManager.Body"
+            android:textSize="14sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_master_password"
+            style="@style/Widget.PManager.TextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xl"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/text_secondary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_master_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_master_password"
+                android:inputType="textPassword"
+                android:textColor="@color/text_primary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password Strength Bar -->
+        <LinearLayout
+            android:id="@+id/strength_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/strength_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:max="100"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/tv_strength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:textSize="@dimen/text_caption" />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_confirm_password"
+            style="@style/Widget.PManager.TextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_md"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/text_secondary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:textColor="@color/text_primary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_create"
+            style="@style/Widget.PManager.Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/spacing_xl"
+            android:layout_marginBottom="@dimen/spacing_lg"
+            android:text="@string/btn_create_vault" />
+
+    </LinearLayout>
+</ScrollView>

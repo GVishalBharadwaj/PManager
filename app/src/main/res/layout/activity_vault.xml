@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/background"
+            app:title="@string/vault_title"
+            app:titleTextColor="@color/text_primary"
+            app:titleTextAppearance="@style/TextAppearance.PManager.Title" />
+
+        <!-- Search Bar -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/search_layout"
+            style="@style/Widget.PManager.TextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/spacing_md"
+            android:layout_marginBottom="@dimen/spacing_sm"
+            app:boxCornerRadiusBottomEnd="@dimen/corner_radius_xl"
+            app:boxCornerRadiusBottomStart="@dimen/corner_radius_xl"
+            app:boxCornerRadiusTopEnd="@dimen/corner_radius_xl"
+            app:boxCornerRadiusTopStart="@dimen/corner_radius_xl"
+            app:startIconDrawable="@android:drawable/ic_menu_search"
+            app:startIconTint="@color/text_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/hint_search"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Category Chips -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_sm"
+            android:paddingHorizontal="@dimen/spacing_md"
+            android:scrollbars="none">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:singleSelection="true"
+                app:selectionRequired="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_all"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_all"
+                    android:checked="true" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_social"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_social" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_email"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_email" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_finance"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_finance" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_shopping"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_shopping" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_work"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_work" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_other"
+                    style="@style/Widget.PManager.Chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cat_other" />
+
+            </com.google.android.material.chip.ChipGroup>
+        </HorizontalScrollView>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Password List -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_passwords"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="@dimen/spacing_sm"
+            android:paddingBottom="80dp" />
+
+        <!-- Empty State -->
+        <LinearLayout
+            android:id="@+id/empty_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔐"
+                android:textSize="64sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_md"
+                android:text="@string/empty_vault_title"
+                android:textAppearance="@style/TextAppearance.PManager.Title"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:text="@string/empty_vault_subtitle"
+                android:textAppearance="@style/TextAppearance.PManager.Body"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- FAB -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        style="@style/Widget.PManager.FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/spacing_md"
+        android:contentDescription="Add password"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
